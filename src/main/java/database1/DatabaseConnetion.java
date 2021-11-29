@@ -51,7 +51,7 @@ public String insert(LoginClass login) {
 		preparedStatement.executeUpdate();
 	} catch (SQLException e) {
 		// TODO Auto-generated catch block
-		messageString = "Record not registered!";
+		messageString = "Record not acceptedd!!";
 		e.printStackTrace();
 		
 	}
